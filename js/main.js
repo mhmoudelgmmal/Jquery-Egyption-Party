@@ -94,7 +94,7 @@ $("#textCounter").keyup(function(e){
     }
 })
 
-let countDown = new Date("jul 14, 2022 23:59:59").getTime();
+let countDown = new Date("Aug 14, 2022 23:59:59").getTime();
 let counter = setInterval(()=>{
     let dateNow = new Date().getTime();
 
